@@ -1,0 +1,17 @@
+p {
+  font-family: "Roboto", "Arial";
+  font-size: 14px;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px; /* Space for the header */
+  padding-left: 96px; /* Space for the sidebar */
+  padding-right: 24px; /* Space for the right margin */
+  background-color: rgb(248, 248, 248);
+}
+
+* {
+  --opacity-tooltip: 0.95;
+}
