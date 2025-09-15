@@ -39,4 +39,6 @@ videos.forEach((video) => {
 });
 
 
-document.querySelector('.js-video-grid').innerHTML = videosHTML;
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('.js-video-grid').innerHTML = videosHTML;
+});
