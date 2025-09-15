@@ -1,3 +1,5 @@
+import { videos } from '../data/videos.js';
+
 /*
   Main idea of JavaScript:
     1. Save the data {Done in the videos.js file in the data folder}
@@ -42,3 +44,4 @@ videos.forEach((video) => {
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.js-video-grid').innerHTML = videosHTML;
 });
+
