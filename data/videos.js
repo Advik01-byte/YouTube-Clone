@@ -1,4 +1,4 @@
-export const videos = [
+const videos = [
   {
     title: 'Talking Tech and AI with Google CEO Sundar Pichai!',
     author: 'Marques Brownlee',
@@ -131,4 +131,5 @@ export const videos = [
     },
     link: 'https://www.youtube.com/watch?v=9iMGFqMmUFs'
   }
+
 ];
